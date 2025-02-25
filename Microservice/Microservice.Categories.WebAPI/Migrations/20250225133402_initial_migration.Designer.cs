@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Microservice.Categories.WebAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250225083825_initial_migration")]
+    [Migration("20250225133402_initial_migration")]
     partial class initial_migration
     {
         /// <inheritdoc />

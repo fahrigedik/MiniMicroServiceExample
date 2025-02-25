@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35731.43 d17.13
+VisualStudioVersion = 17.13.35731.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Todos.WebAPI", "Microservice.Todos.WebAPI\Microservice.Todos.WebAPI.csproj", "{37239C25-A177-4773-9866-D29CD0F07332}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Categories.WebAPI", "Microservice.Categories.WebAPI\Microservice.Categories.WebAPI.csproj", "{A94BB96B-E578-4A52-A2A6-BAC62F287A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Ocelot.Gateway", "Microservice.Ocelot.Gateway\Microservice.Ocelot.Gateway.csproj", "{8601D10B-552D-4AAF-B871-D84431644A14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A94BB96B-E578-4A52-A2A6-BAC62F287A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94BB96B-E578-4A52-A2A6-BAC62F287A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94BB96B-E578-4A52-A2A6-BAC62F287A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8601D10B-552D-4AAF-B871-D84431644A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8601D10B-552D-4AAF-B871-D84431644A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8601D10B-552D-4AAF-B871-D84431644A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8601D10B-552D-4AAF-B871-D84431644A14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
